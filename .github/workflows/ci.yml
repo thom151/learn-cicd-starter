@@ -21,7 +21,7 @@ jobs:
       - name: Run Tests
         run: go test ./... -cover
 
-  Style:
+  style:
     name: Style
     runs-on: ubuntu-latest
 
@@ -43,7 +43,7 @@ jobs:
       - name: Lint static check
         run: staticcheck ./...
 
-Security:
+  security:
     name: Security
     runs-on: ubuntu-latest
 
