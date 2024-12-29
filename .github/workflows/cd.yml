@@ -12,7 +12,7 @@ jobs:
         DATABASE_URL: ${{ secrets.DATABASE_URL }}
 
     steps:
-      - name: Checkout
+      - name: Check out code
         uses: actions/checkout@v4
 
       - name: Set up Go
